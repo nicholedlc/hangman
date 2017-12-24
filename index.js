@@ -1,4 +1,4 @@
-const word = "Stranger";
+const word = "REGINALD";
 const wordArr = word.toUpperCase().split("");
 const wordObj = wordArr.reduce((acc, val, i) => {
   acc[val] ? acc[val].push(i) : acc[val] = [i];
@@ -46,7 +46,7 @@ function check(value) {
     hangmenAssets.shift();
     used.push(value);
     if (!hangmenAssets.length) {
-      return verdict("Say your prayers, dead man!");
+      return verdict("Sorry no presents for you! 💩");
     }
   }
 }
