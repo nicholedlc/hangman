@@ -39,7 +39,7 @@ function check(value) {
       remaining--;
     })
     if(!remaining) {
-      return verdict("Congratulations!");
+      return verdict("Congratulations! You now have the password to your prize.");
     }
   } else {
     get("gallows-container").children[0].setAttribute("src", `hangman-assets/${hangmenAssets[0]}.jpg`);
